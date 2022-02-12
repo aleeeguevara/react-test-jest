@@ -12,5 +12,7 @@ describe('Componente de transação do extrato', () => {
             valor= "20.00"
         />)
         expect(container.firstChild).toMatchSnapshot();
+
+
     })
 })
