@@ -48,12 +48,12 @@ describe('Componente Principal', () => {
         })
 
         it('que é um saque, a transação deve ser realizada', () => {
-            const { getByTestId, getByLabelText, getByText} = render(<App />);
+            render(<App />);
 
-            const saldo = getByText('R$ 1000');
-            const transacao = getByLabelText('Saque');
-            const valor = getByTestId('valor');
-            const botaoTransacao = getByText('Realizar operação');
+            const saldo = screen.getByText('R$ 1000');
+            const transacao = screen.getByLabelText('Saque');
+            const valor = screen.getByTestId('valor');
+            const botaoTransacao = screen.getByText('Realizar operação');
 
 
             expect(saldo.textContent).toBe('R$ 1000')
@@ -65,4 +65,12 @@ describe('Componente Principal', () => {
             expect(saldo.textContent).toBe('R$ 990');
         })
     })
-})   
+})    
+
+/*
+ O render é uma função que o React Testing Library nos fornece para renderizar 
+ o componente como um elemento do DOM. Por padrão, esse elemento é renderizado dentro 
+ de um elemento raíz, chamado container. Já para acessar um componente, a biblioteca nos
+ fornece o objeto screen, que possui todas as possíveis queries suportadas para buscar 
+ elementos no DOM.
+*/

@@ -1,6 +1,6 @@
 {
   "conta": {
-    "saldo": 1505
+    "saldo": 990
   },
   "transacoes": [
     {
@@ -32,6 +32,60 @@
       "valor": "10",
       "data": "12/02/2022",
       "id": 5
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "13/02/2022",
+      "id": 6
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "13/02/2022",
+      "id": 7
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "13/02/2022",
+      "id": 8
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "13/02/2022",
+      "id": 9
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "13/02/2022",
+      "id": 10
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "13/02/2022",
+      "id": 11
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "13/02/2022",
+      "id": 12
+    },
+    {
+      "transacao": "",
+      "valor": 0,
+      "data": "13/02/2022",
+      "id": 13
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "13/02/2022",
+      "id": 14
     }
   ]
 }
