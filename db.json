@@ -86,6 +86,30 @@
       "valor": "10",
       "data": "13/02/2022",
       "id": 14
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "14/02/2022",
+      "id": 15
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "14/02/2022",
+      "id": 16
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "14/02/2022",
+      "id": 17
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "14/02/2022",
+      "id": 18
     }
   ]
 }
